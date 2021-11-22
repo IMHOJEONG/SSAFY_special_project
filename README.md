@@ -1,12 +1,12 @@
-![Asset_6](/uploads/ea933faa885a3ece1aed9bfe8a4e46a7/Asset_6.png)
+## 별나린밤 - 키워드 데이터 분석 사이트
 
-SSAFY 2학기 특화 프로젝트 - 별나린밤
+![Asset_6](https://user-images.githubusercontent.com/11308147/142793072-8bd0309f-adfa-44e2-9a32-2256b8739342.png)
+
+<p align="center">
+   SSAFY 2학기 특화 프로젝트 - 별나린밤
+</p>
 
 ## Quick Links 
-
-------
-
-
 
 - [PJT명](#프로젝트명)
 
@@ -18,12 +18,7 @@ SSAFY 2학기 특화 프로젝트 - 별나린밤
 
 - [Architecture](#architecture)
 
-
-
-# 프로젝트 설명
-
-------
-
+## 프로젝트 설명
 
 - Youtube, Naver, Twitter 등의 SNS와 플랫폼들의 Open API를 통해 정보를 수집하고, 그것을 바탕으로 키워드에 대한 분석과 평가를 제공해주는 프로젝트
 
@@ -41,31 +36,21 @@ SSAFY 2학기 특화 프로젝트 - 별나린밤
 
 
 
-# 기술 스택
-
----
-
-![image](/uploads/fe53bf6e79cef9754071b4d7263e5d53/image.png)
+## 기술 스택
 
 
+![image](https://user-images.githubusercontent.com/11308147/142793075-72e3d6de-2cac-47a8-8b21-197a4a21e8f7.png)
 
-# WIKI
 
-------
+## WIKI
 
 프로젝트의 모든 정보는 [WIKI](https://lab.ssafy.com/s05-bigdata-dist/S05P21B103/-/wikis/Home)를 통해 참고하실 수 있습니다.
 
+## Architecture
 
+![Image_Pasted_at_2021-10-6_20-58](https://user-images.githubusercontent.com/11308147/142793080-c774791b-6909-4259-9e9a-d2bf313484a8.png)
 
-# Architecture
-
----
-
-![Image_Pasted_at_2021-10-6_20-58](/uploads/e39884244c26e7d887c7ca067007eaf6/Image_Pasted_at_2021-10-6_20-58.png)
-
-
-
-# Writer
+## Writer
 
 - 0533030 임호정
 - 0534451 김주현
@@ -73,17 +58,15 @@ SSAFY 2학기 특화 프로젝트 - 별나린밤
 - 0534587 이산하
 - 0534325 최승재
 
-# Meeting Logs
+## Meeting Logs
 
 - [Notion](https://feline-ceramic-f5b.notion.site/021d6df882794c8eb1259bd7dbd1c504)
-
----
 
 ## 팀원 소개
 
 | Name     | 김주현 | 이산하 | 임호정 | 조세연 | 최승재 |
 | -------- | ------ | ------ | ------ | ------ | ------ |
-| Profile  | ![김주현](/uploads/3b4f64d2214fcf699d6c29f978fcb01e/김주현.jpg) | ![이산하](/uploads/0e805e6f8a45cb7a4b265864690ecbd2/이산하.jpg) | ![임호정_프로필](/uploads/0f298bc348037cd5dd32949171f2e5a4/임호정.png)       | ![조세연_프로필](/uploads/98422f8661eec9e5a7b5a3bafb004109/조세연.png)       | ![최승재_프로필](/uploads/209ea4249595c3b8f44ef14d962912ad/최승재.png) |
+| Profile  | ![김주현](https://user-images.githubusercontent.com/11308147/142793188-9c98cdca-78ba-4541-b24a-45e4883d107a.jpg) | ![이산하](https://user-images.githubusercontent.com/11308147/142793190-f7731afb-47f4-44be-bd9d-b516a4e27f34.jpg) | ![임호정](https://user-images.githubusercontent.com/11308147/142793191-950e62b3-f7ae-4285-afac-6163beccdb91.png) | ![조세연](https://user-images.githubusercontent.com/11308147/142793180-759ede1c-7296-4039-a52f-a2b3c4f4580a.png) | ![최승재](https://user-images.githubusercontent.com/11308147/142793186-c71ef3c7-68c4-4bf2-8848-ca7e618cb4d7.png) |
 | Position | BE | FE/UI,UX | FE/UI,UX |    BE  | BE |
 | GitHub   | @juhyun7955 | @sana0803 | @39ghwjd |  @cnsy831 |@nodayst|
 
