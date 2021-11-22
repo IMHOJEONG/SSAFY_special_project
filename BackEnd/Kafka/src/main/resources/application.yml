@@ -1,0 +1,16 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: 3.35.214.129:9092
+      group-id: starry
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: 3.35.214.129:9092
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  redis:
+    word:
+      host: 3.35.214.129
+      port: 6050

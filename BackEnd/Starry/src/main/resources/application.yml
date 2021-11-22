@@ -1,0 +1,74 @@
+spring:
+  profiles:
+    group:
+      "dev": "common, local"
+
+
+---
+spring:
+  profiles:
+    group:
+      "prod": "common, ec2"
+
+
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "common"
+
+
+logging:
+  file:
+    path: "/log/starry/logs/spring-api"
+  logback:
+    rollingpolicy:
+      max-file-size: 500MB
+      max-history: 10
+  level:
+    root: info
+  pattern:
+    console: "[%d{HH:mm:ss.SSS}][%-5level][%logger.%method:line%line] - %msg%n"
+  charset:
+    console: UTF-8
+
+notification:
+  mattermost:
+    enabled: true
+    webhook-url: "https://meeting.ssafy.com/hooks/mq9cont4itymjxw84u1fydg3wh"
+
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "local"
+  redis:
+    word:
+      host: localhost
+      port: 6379
+
+server:
+  port: 8070
+---
+spring:
+  config:
+    activate:
+      on-profile: "ec2"
+  redis:
+    word:
+      host: 3.35.214.129
+      port: 6050
+
+
+server:
+  port: 8000
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force-response: true
+      force-request: true
